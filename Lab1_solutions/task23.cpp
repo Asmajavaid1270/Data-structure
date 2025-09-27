@@ -1,23 +1,35 @@
-
+// Name: Asma Javaid
+// Roll no. : 2024-csr-031
+// Task D1 : Circular Linked List
 
 #include<iostream>
 using namespace std;
 
+struct CNode 
+{
+    int data;
+    CNode* next;
+};
+
 int main()
 {
-  int A[10] = {2,6,8,7,1};    
-  int size = 5;               
-  int pos = 2;                  
- 
-  for (int i = pos; i < size-1; ++i){
-   A[i] =A[i+1];                  
-} 
+    int n = 5;
+    CNode* head = new CNode {1, NULL};
+    CNode* curr = head;
 
- size--;                       
-
-  cout << "After deletion: ";
- for(int i = 0; i < size ; ++i)   
-     cout << A[i] << " ";
-     cout << endl;
-     return 0;
+    for (int i = 2; i<= n; i++)
+    {
+        curr->next = new CNode{i, NULL};
+        curr = curr->next;
+    }
+    curr->next = head;
+    cout << "Circular List: ";
+    curr = head;
+    for (int i = 0; i < n; i++)
+    {
+        cout << curr->data << " ";
+        curr = curr->next;
+    }
+    cout << endl;
+    return 0;
 }
