@@ -1,6 +1,6 @@
 // Name: Asma Javaid
 // Roll no. : 2024-csr-031
-// Task 7:  Dynamic Arrays
+// Task 2:  Dynamic Arrays
 
 #include <iostream>
 using namespace std;

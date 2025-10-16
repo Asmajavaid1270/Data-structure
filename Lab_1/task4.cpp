@@ -1,6 +1,6 @@
 // Name : Asma Javiad
 // Roll No : 2024-csr-031
-// task 2 : Dynamic array
+// task 4 : Dynamic array
 
 
 #include<iostream>
