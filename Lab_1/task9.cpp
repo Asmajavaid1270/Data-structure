@@ -1,6 +1,6 @@
-/// Name: Asma Javaid
+// Name: Asma Javaid
 // Roll no. : 2024-csr-031
-// Task 9: Insertng List into Array
+// Task 1: Insertng List into Array
 
 #include <iostream>
 using namespace std;
